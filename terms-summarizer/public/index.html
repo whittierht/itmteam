@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms & Conditions Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Terms & Conditions Summarizer</h1>
+  </header>
+
+  <main>
+    <textarea id="terms" placeholder="Paste your terms and conditions here..."></textarea>
+    <button onclick="summarize()">Summarize</button>
+
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>Summarizing, please wait...</p>
+    </div>
+
+    <h2>Summary</h2>
+    <pre id="summary"></pre>
+  </main>
+
+  <footer>
+    &copy; 2025 TermsSummarizer Inc. | Built with OpenAI & Node.js
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
